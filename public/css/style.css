@@ -1,0 +1,87 @@
+body {
+  padding-top: 74px;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 76px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .clear-collapse {
+    clear: both;
+  }
+}
+
+/**
+ * realign the drop down when not collapsed
+ */
+@media screen and (min-width: 768px) {
+  .pull-right > .dropdown-menu.realign {
+    left: auto;
+    right: auto;
+  }
+}
+
+/**
+ * set the color of nav-bar anchors styled as btns
+ */
+.navbar-header .btn {
+  color: #9d9d9d;
+}
+.navbar-header .btn:hover {
+  color: #fff;
+}
+
+#nav-lang {
+  margin-left: 15px;
+}
+
+#nav-lang li {
+  margin: 5px;
+}
+
+#nav-lang li a {
+  color: #9d9d9d;
+}
+
+.dropdown-menu {
+  min-width: 70px;
+}
+
+.dropdown-menu li {
+  text-align: center;
+}
+
+.Dropdown-placeholder {
+  padding: 10px 15px;
+  background: #efefef;
+  border: 2px solid #5b6a79;
+  border-radius: 10px;
+  width: 70px;
+  text-align: center;
+  padding: 10px;
+  margin-right: 5px;
+}
+
+.postBody {
+  text-align: justify;
+}
+
+.card-img-top {
+  height: 450px;
+  object-fit: cover;
+}
+
+.postbanner-img {
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+}
+
+.btn-add-post {
+  width: 100%;
+  margin-bottom: 30px;
+  font-size: 24px;
+}
